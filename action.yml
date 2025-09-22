@@ -10,7 +10,7 @@ inputs:
 outputs:
   result: 
     value: ${{ steps.sum-result.outputs.result }}
-run:
+runs:
   using: composite
   steps:
     - shell: bash
