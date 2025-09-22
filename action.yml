@@ -14,9 +14,9 @@ run:
   using: composite
   steps:
     - shell: bash
-    id: sum-result
-    run: |
-      numl=${{ inputs.number1 }}
-      num2=${{ inputs.number2 }}
-      result=$((num1+num2))
-      echo "result=$result" >> "$GITHUB_OUTPUT"
+      id: sum-result
+      run: |
+        numl=${{ inputs.number1 }}
+        num2=${{ inputs.number2 }}
+        result=$((num1+num2))
+        echo "result=$result" >> "$GITHUB_OUTPUT"
