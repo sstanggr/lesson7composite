@@ -1,8 +1,6 @@
 name: composit actions test
-
 on:
   push:
-
 jobs:
   composite-action:
     name: job to test a composite action
